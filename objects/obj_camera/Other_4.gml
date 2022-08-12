@@ -4,9 +4,6 @@
 global.cameraX = 0;
 global.cameraY = 0;
 
-global.cameraWidth = 750;
-global.cameraHeight = 500;
-
 view_enabled = true; 
 view_visible[0] = true; // enable camera 0
 

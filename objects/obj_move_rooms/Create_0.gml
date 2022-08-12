@@ -7,21 +7,20 @@ enum sides
 
 side = -1;
 
-if(x < 750/2) // left side
+if(x < global.cameraWidth/2) // left side
 {
 	side = sides.left;
 }
-if(x > 750/2) // right side
+if(x > global.cameraWidth/2) // right side
 {
 	side = sides.right;
 }
 
 // x,y
 
-cordX = x;
 cordY = y;
 
-margin = 75;
+margin = 50;
 
 
 

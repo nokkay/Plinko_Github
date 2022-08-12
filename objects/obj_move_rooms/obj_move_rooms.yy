@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "spr_barrier",
-    "path": "sprites/spr_barrier/spr_barrier.yy",
+    "name": "spr_move_rooms",
+    "path": "sprites/spr_move_rooms/spr_move_rooms.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
@@ -23,6 +23,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_lonelyWiz","path":"objects/obj_lonelyWiz/obj_lonelyWiz.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +32,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_barrier",
+  "name": "obj_move_rooms",
   "tags": [],
   "resourceType": "GMObject",
 }

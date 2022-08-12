@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b72d723a-cf8e-40f5-bc84-7d0844bc67f1","path":"sprites/spr_sky/spr_sky.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b72d723a-cf8e-40f5-bc84-7d0844bc67f1","path":"sprites/spr_sky/spr_sky.yy",},"LayerId":{"name":"3457c9ee-7b5f-4af2-9e07-9fe08be83410","path":"sprites/spr_sky/spr_sky.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},"resourceVersion":"1.0","name":"b72d723a-cf8e-40f5-bc84-7d0844bc67f1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"cfa4dfea-d5ee-44b3-aaef-6ea0f1f154a5","path":"sprites/spr_move_rooms/spr_move_rooms.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"cfa4dfea-d5ee-44b3-aaef-6ea0f1f154a5","path":"sprites/spr_move_rooms/spr_move_rooms.yy",},"LayerId":{"name":"87b25be9-e62a-4e67-91df-3977d6448960","path":"sprites/spr_move_rooms/spr_move_rooms.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_move_rooms","path":"sprites/spr_move_rooms/spr_move_rooms.yy",},"resourceVersion":"1.0","name":"cfa4dfea-d5ee-44b3-aaef-6ea0f1f154a5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},
+    "spriteId": {"name":"spr_move_rooms","path":"sprites/spr_move_rooms/spr_move_rooms.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"592a2c47-ecb9-473d-b25c-1e41c2ceb187","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b72d723a-cf8e-40f5-bc84-7d0844bc67f1","path":"sprites/spr_sky/spr_sky.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"360e4567-2191-4cf2-a71e-93d89e5b9601","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cfa4dfea-d5ee-44b3-aaef-6ea0f1f154a5","path":"sprites/spr_move_rooms/spr_move_rooms.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},
+    "parent": {"name":"spr_move_rooms","path":"sprites/spr_move_rooms/spr_move_rooms.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_sky",
+    "name": "spr_move_rooms",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3457c9ee-7b5f-4af2-9e07-9fe08be83410","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"87b25be9-e62a-4e67-91df-3977d6448960","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_sky",
+  "name": "spr_move_rooms",
   "tags": [],
   "resourceType": "GMSprite",
 }

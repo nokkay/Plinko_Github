@@ -1,16 +1,15 @@
 {
-  "name": "obj_grass_top",
   "spriteId": {
     "name": "spr_grass_top",
     "path": "sprites/spr_grass_top/spr_grass_top.yy",
   },
-  "spriteMaskId": null,
-  "visible": true,
   "solid": false,
-  "persistent": false,
-  "physicsObject": false,
+  "visible": true,
   "managed": true,
+  "spriteMaskId": null,
+  "persistent": false,
   "parentObjectId": null,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -33,6 +32,7 @@
     "path": "folders/Objects/obj_grass.yy",
   },
   "resourceVersion": "1.0",
+  "name": "obj_grass_top",
   "tags": [],
   "resourceType": "GMObject",
 }

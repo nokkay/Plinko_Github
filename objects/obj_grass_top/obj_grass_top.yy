@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "obj_grass",
-    "path": "folders/Objects/obj_grass.yy",
+    "path": "folders/Objects/BG/obj_grass.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_grass_top",

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_grass_mid",
-    "path": "sprites/spr_grass_mid/spr_grass_mid.yy",
+    "name": "spr_petal",
+    "path": "sprites/spr_petal/spr_petal.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,15 +21,19 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":40,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "obj_grass",
-    "path": "folders/Objects/BG/obj_grass.yy",
+    "name": "BG",
+    "path": "folders/Objects/BG.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_grass_mid",
+  "name": "obj_petal",
   "tags": [],
   "resourceType": "GMObject",
 }

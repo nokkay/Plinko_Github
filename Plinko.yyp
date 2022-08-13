@@ -19,6 +19,7 @@
     {"id":{"name":"obj_grass_top","path":"objects/obj_grass_top/obj_grass_top.yy",},"order":1,},
     {"id":{"name":"spr_speech_bubble","path":"sprites/spr_speech_bubble/spr_speech_bubble.yy",},"order":1,},
     {"id":{"name":"rm_act_two","path":"rooms/rm_act_two/rm_act_two.yy",},"order":2,},
+    {"id":{"name":"spr_test","path":"sprites/spr_test/spr_test.yy",},"order":7,},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":1,},
     {"id":{"name":"spr_move_rooms","path":"sprites/spr_move_rooms/spr_move_rooms.yy",},"order":3,},
     {"id":{"name":"spr_grass_top","path":"sprites/spr_grass_top/spr_grass_top.yy",},"order":1,},

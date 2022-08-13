@@ -1,5 +1,5 @@
 /// @description Destroy
-instance_destroy();
+if(perishable) instance_destroy();
 
 
 

@@ -5,6 +5,7 @@ detect_radius = 150; // how close u need to be to talk
 frame = 0;
 talk = false;
 
+depth = 101;
 
 
 

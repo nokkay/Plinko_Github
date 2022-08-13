@@ -1,6 +1,7 @@
 /// @description 
 
 sprite_index = spr_lonelyWiz_idle;
+depth = 99;
 
 walk_speed = 3;
 

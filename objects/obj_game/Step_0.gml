@@ -10,9 +10,7 @@ if(room = rm_act_one)
 	layer_x("Hills_Far", obj_lonelyWiz.x * (-.03));
 	layer_x("City", obj_lonelyWiz.x * (-.01));
 	
-	//create petal
-	alarm[0] = 1;
-	alarm[0] = 1 * room_speed;
+
 }
 
 

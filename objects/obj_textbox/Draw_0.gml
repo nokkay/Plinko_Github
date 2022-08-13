@@ -10,6 +10,9 @@ if(setup == false){
 	
 	//loop through the pages
 	page_number = array_length(text);
+	for(var p = 0; p< page_number; p++){
+		
+	}
 	
 	
 }

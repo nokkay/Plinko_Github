@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Act I",
-    "path": "folders/Sprites/BG/Act I.yy",
+    "name": "BG",
+    "path": "folders/Sprites/BG.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_tree",

@@ -94,7 +94,7 @@
   },
   "parent": {
     "name": "spr_grass",
-    "path": "folders/Sprites/spr_grass.yy",
+    "path": "folders/Sprites/BG/spr_grass.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_grass_mid",

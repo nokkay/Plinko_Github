@@ -5,7 +5,7 @@
 global.cameraX = 0;
 global.cameraY = 0;
 
-global.cameraWidth = 750;
+global.cameraWidth = 736;
 global.cameraHeight = 500;
 
 //target = obj_lonelyWiz;

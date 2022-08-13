@@ -106,7 +106,7 @@
   },
   "parent": {
     "name": "spr_plinko",
-    "path": "folders/Sprites/spr_plinko.yy",
+    "path": "folders/Sprites/NPC/spr_plinko.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_lonelyWiz_talk",

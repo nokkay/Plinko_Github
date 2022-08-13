@@ -72,7 +72,7 @@
     {"folderPath":"folders/Rooms.yy","order":2,"resourceVersion":"1.0","name":"Rooms","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/BG/obj_grass.yy","order":1,"resourceVersion":"1.0","name":"obj_grass","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/BG/spr_grass.yy","order":3,"resourceVersion":"1.0","name":"spr_grass","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sprites/spr_lonelyWiz.yy","order":1,"resourceVersion":"1.0","name":"spr_lonelyWiz","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/spr_lonelyWiz.yy","order":2,"resourceVersion":"1.0","name":"spr_lonelyWiz","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Music.yy","order":6,"resourceVersion":"1.0","name":"Music","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Game Objects.yy","order":0,"resourceVersion":"1.0","name":"Game Objects","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/BG.yy","order":0,"resourceVersion":"1.0","name":"BG","tags":[],"resourceType":"GMFolder",},
@@ -81,7 +81,7 @@
     {"folderPath":"folders/DialogueSystem.yy","order":7,"resourceVersion":"1.0","name":"DialogueSystem","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/GUI.yy","order":6,"resourceVersion":"1.0","name":"GUI","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/BG.yy","order":1,"resourceVersion":"1.0","name":"BG","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sprites/spr_plinko.yy","order":2,"resourceVersion":"1.0","name":"spr_plinko","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/NPC/spr_plinko.yy","order":2,"resourceVersion":"1.0","name":"spr_plinko","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

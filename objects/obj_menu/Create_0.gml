@@ -3,7 +3,7 @@
 randomize();
 
 // Set font
-draw_set_font(fnt_text); // add text l8r
+draw_set_font(fnt_pixel); // add text l8r
 title_scale = 5;
 txt_scale = 2
 // Display

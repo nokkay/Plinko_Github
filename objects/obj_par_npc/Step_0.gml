@@ -1,9 +1,11 @@
-/// @description Speech bubble
+/// @description Speech bubble and Dialogue
+
+var _s = id;
 
 // Initiate dialogue
-if(keyboard_check_pressed(ord("E")))
+if(keyboard_check_pressed(ord("E")) && talk)
 {
-	
+	create_textbox(text_id);
 }
 
 // Close
@@ -20,6 +22,8 @@ else
 	instance_destroy(obj_speech_bubble);	
 	talk = false;
 }
+
+
 
 
 

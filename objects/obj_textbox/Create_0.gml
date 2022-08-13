@@ -18,9 +18,14 @@ text[3] = "Never gonna give you up Never gonna let you down Never gonna run arou
 text_length[0] = string_length(text[0]);
 draw_char = 0;
 text_spd = 1;
+//options
+option[0] = "";
 
 setup = false;
 
+//effects
+text_pause_timer = 0;
+text_pause_time = 18;
 
 
 

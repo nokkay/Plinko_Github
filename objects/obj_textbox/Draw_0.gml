@@ -12,8 +12,7 @@ if(setup == false)
 	draw_set_valign(fa_top);
 	draw_set_halign(fa_left);
 	
-	//loop through the pages
-	page_number = array_length(text);
+	
 	for(var p = 0; p< page_number; p++){
 		
 		//find out how many characters are on each page and store in var
@@ -30,11 +29,24 @@ if(setup == false)
 
 
 //typing the text
-if(draw_char < text_length[page])
+if(text_pause_timer <= 0)
 {
-	draw_char += text_spd;
-	draw_char = clamp(draw_char, 0, text_length[page]);
 	
+	if(draw_char < text_length[page])
+	{
+		draw_char += text_spd;
+		draw_char = clamp(draw_char, 0, text_length[page]);
+		var _check_char = string_char_at(text[page], draw_char);
+		if(_check_char == "." || _check_char == "," || _check_char == "?")
+		{
+			text_pause_timer = text_pause_time;		
+		}
+		
+	}
+		
+}else 
+{
+	text_pause_timer--;
 }
 
 

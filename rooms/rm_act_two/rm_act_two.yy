@@ -99,7 +99,22 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_grass_mid","path":"objects/obj_grass_mid/obj_grass_mid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":960.0,"y":640.0,"resourceVersion":"1.0","name":"inst_22261503","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_grass_mid","path":"objects/obj_grass_mid/obj_grass_mid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":640.0,"resourceVersion":"1.0","name":"inst_21B19CEF","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Grass","tags":[],"resourceType":"GMRInstanceLayer",},
-    {"spriteId":{"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},"colour":4294967295,"x":0,"y":0,"htiled":true,"vtiled":true,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
+    {"assets":[
+        {"spriteId":{"name":"spr_flower","path":"sprites/spr_flower/spr_flower.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":0.7,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":384.0,"resourceVersion":"1.0","name":"graphic_1B22A74E","tags":[],"resourceType":"GMRSpriteGraphic",},
+        {"spriteId":{"name":"spr_flower","path":"sprites/spr_flower/spr_flower.yy",},"headPosition":1.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":0.8,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":384.0,"resourceVersion":"1.0","name":"graphic_27F6045","tags":[],"resourceType":"GMRSpriteGraphic",},
+      ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"BG_Asset","tags":[],"resourceType":"GMRAssetLayer",},
+    {"instances":[],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Clouds","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"assets":[
+        {"spriteId":{"name":"spr_hills_close","path":"sprites/spr_hills_close/spr_hills_close.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":992.0,"y":224.0,"resourceVersion":"1.0","name":"graphic_2B34DB40","tags":[],"resourceType":"GMRSpriteGraphic",},
+      ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Hills_Close","tags":[],"resourceType":"GMRAssetLayer",},
+    {"assets":[
+        {"spriteId":{"name":"spr_hills_far","path":"sprites/spr_hills_far/spr_hills_far.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-32.0,"y":128.0,"resourceVersion":"1.0","name":"graphic_1EC9B2BC","tags":[],"resourceType":"GMRSpriteGraphic",},
+      ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Hills_Far","tags":[],"resourceType":"GMRAssetLayer",},
+    {"assets":[
+        {"spriteId":{"name":"spr_city_bg","path":"sprites/spr_city_bg/spr_city_bg.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":128.0,"resourceVersion":"1.0","name":"graphic_636A5A11","tags":[],"resourceType":"GMRSpriteGraphic",},
+        {"spriteId":{"name":"spr_city_bg","path":"sprites/spr_city_bg/spr_city_bg.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":128.0,"resourceVersion":"1.0","name":"graphic_93E103B","tags":[],"resourceType":"GMRSpriteGraphic",},
+      ],"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"City","tags":[],"resourceType":"GMRAssetLayer",},
+    {"spriteId":{"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},"colour":4294967295,"x":0,"y":0,"htiled":true,"vtiled":true,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":700,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Sky","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
   "inheritLayers": false,
   "creationCodeFile": "",
@@ -192,8 +207,8 @@
   "sequenceId": null,
   "roomSettings": {
     "inheritRoomSettings": false,
-    "Width": 1000,
-    "Height": 750,
+    "Width": 992,
+    "Height": 736,
     "persistent": false,
   },
   "viewSettings": {

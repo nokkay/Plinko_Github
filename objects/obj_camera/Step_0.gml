@@ -1,9 +1,9 @@
-///@description Visual fx
+/// @description Parallax
 
 //if player is on screen
 if(!instance_exists(obj_lonelyWiz)) exit;
 
-if(room = rm_act_one)
+if(room != rm_menu && room != rm_void)
 {
 	//lower number = farther away
 	layer_x("Hills_Close", obj_lonelyWiz.x * (-.04));
@@ -12,6 +12,10 @@ if(room = rm_act_one)
 	
 
 }
+
+
+
+
 
 
 

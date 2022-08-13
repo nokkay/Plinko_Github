@@ -16,10 +16,9 @@ if(x > global.cameraWidth/2) // right side
 	side = sides.right;
 }
 
-// x,y
+// Respawning coordinates
 
-cordY = y;
-
+yCoord = y;
 margin = 50;
 
 

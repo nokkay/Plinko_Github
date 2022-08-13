@@ -3,7 +3,7 @@
     "name": "spr_lonelyWiz_idle",
     "path": "sprites/spr_lonelyWiz_idle/spr_lonelyWiz_idle.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

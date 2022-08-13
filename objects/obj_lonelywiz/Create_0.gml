@@ -1,6 +1,9 @@
 /// @description 
 
+sprite_index = spr_lonelyWiz_idle;
+
 walk_speed = 3;
+
 enum movement_state
 {
 	stand,
@@ -9,7 +12,7 @@ enum movement_state
 }
 movement_mode = movement_state.stand;
 
-sprite_index = spr_lonelyWiz_idle;
+
 
 
 

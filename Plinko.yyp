@@ -7,6 +7,7 @@
     {"id":{"name":"rm_void","path":"rooms/rm_void/rm_void.yy",},"order":4,},
     {"id":{"name":"obj_lonelyWiz","path":"objects/obj_lonelyWiz/obj_lonelyWiz.yy",},"order":4,},
     {"id":{"name":"fnt_text","path":"fonts/fnt_text/fnt_text.yy",},"order":0,},
+    {"id":{"name":"move_rooms","path":"scripts/move_rooms/move_rooms.yy",},"order":0,},
     {"id":{"name":"spr_lonelyWiz_idle","path":"sprites/spr_lonelyWiz_idle/spr_lonelyWiz_idle.yy",},"order":0,},
     {"id":{"name":"rm_act_three","path":"rooms/rm_act_three/rm_act_three.yy",},"order":3,},
     {"id":{"name":"obj_grass_top","path":"objects/obj_grass_top/obj_grass_top.yy",},"order":1,},

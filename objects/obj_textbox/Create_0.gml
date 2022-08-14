@@ -7,6 +7,17 @@ line_width = textbox_width - border*2;
 box_spr = spr_textbox
 box_img = 0;
 box_img_speed = 6/30;
+//mid
+//plinko_voice;
+
+////lowest
+//bennet_voice
+
+////high
+//finley_voice
+
+////kinda high
+//tin_voice
 
 //text
 page = 0;

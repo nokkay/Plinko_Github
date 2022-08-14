@@ -1,17 +1,21 @@
-/// @param text
-function scr_text(_text){
-	text[page_number] = _text
-	
-	page_number++;
-
-
-}
-
-function create_textbox(_text_id)
+// Script assets have changed for v2.3.0 see
+// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+function scr_game_text(_text_id)
 {
-	with(instance_create_depth(0,0, -9999, obj_textbox))
-	{
-		scr_game_text(_text_id);
-	}
-	
+    switch(_text_id){
+
+        case "npc1":
+            scr_text("Have you heard about GameMaker Studio? It's such a terrible software");
+            scr_text("Unity is better!");
+            scr_text("HESDJLGHFJLSDKHJKLJDSKLJFKDSJKFJSDK");
+            scr_text("GSDFGFGDSGDSFGDSF");
+            scr_text("I eat ass");
+            break;
+
+        case "npc2":
+
+            break;
+
+
+    }
 }

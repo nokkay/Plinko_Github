@@ -1,7 +1,9 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function scr_game_text(_text_id){
-	switch(_text_id){
+function scr_game_text(_text_id)
+{
+	switch(_text_id)
+	{
 		
 		case "npc1":
 			scr_text("Have you heard about GameMaker Studio? It's such a terrible software");

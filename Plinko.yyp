@@ -1,5 +1,7 @@
 {
   "resources": [
+    {"id":{"name":"create_cutscene","path":"scripts/create_cutscene/create_cutscene.yy",},"order":14,},
+    {"id":{"name":"trigger_perm","path":"sprites/trigger_perm/trigger_perm.yy",},"order":9,},
     {"id":{"name":"spr_bench","path":"sprites/spr_bench/spr_bench.yy",},"order":6,},
     {"id":{"name":"create_box_at_mouse","path":"scripts/create_box_at_mouse/create_box_at_mouse.yy",},"order":6,},
     {"id":{"name":"msc_mid_voice","path":"sounds/msc_mid_voice/msc_mid_voice.yy",},"order":2,},
@@ -21,6 +23,7 @@
     {"id":{"name":"rm_void","path":"rooms/rm_void/rm_void.yy",},"order":5,},
     {"id":{"name":"fnt_pixel","path":"fonts/fnt_pixel/fnt_pixel.yy",},"order":1,},
     {"id":{"name":"obj_fade","path":"objects/obj_fade/obj_fade.yy",},"order":4,},
+    {"id":{"name":"trigger","path":"sprites/trigger/trigger.yy",},"order":8,},
     {"id":{"name":"cutscene_change_xscale","path":"scripts/cutscene_change_xscale/cutscene_change_xscale.yy",},"order":10,},
     {"id":{"name":"obj_lonelyWiz","path":"objects/obj_lonelyWiz/obj_lonelyWiz.yy",},"order":2,},
     {"id":{"name":"fnt_text","path":"fonts/fnt_text/fnt_text.yy",},"order":0,},
@@ -64,6 +67,8 @@
     {"id":{"name":"rm_act_one","path":"rooms/rm_act_one/rm_act_one.yy",},"order":1,},
     {"id":{"name":"obj_move_rooms","path":"objects/obj_move_rooms/obj_move_rooms.yy",},"order":6,},
     {"id":{"name":"obj_setting","path":"objects/obj_setting/obj_setting.yy",},"order":1,},
+    {"id":{"name":"obj_trigger","path":"objects/obj_trigger/obj_trigger.yy",},"order":5,},
+    {"id":{"name":"obj_trigger_perm","path":"objects/obj_trigger_perm/obj_trigger_perm.yy",},"order":6,},
     {"id":{"name":"cutscene_instance_destroy","path":"scripts/cutscene_instance_destroy/cutscene_instance_destroy.yy",},"order":9,},
     {"id":{"name":"obj_cloud","path":"objects/obj_cloud/obj_cloud.yy",},"order":2,},
     {"id":{"name":"spr_petal","path":"sprites/spr_petal/spr_petal.yy",},"order":2,},

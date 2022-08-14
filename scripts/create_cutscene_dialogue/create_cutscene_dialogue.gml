@@ -1,5 +1,6 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+///@description cut_scene_dialogue
+///@param _textid
+///@param obj
+
 function create_cutscene_dialogue(){
-	
-}
+	create_textbox(argument0, argument1)

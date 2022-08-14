@@ -1,11 +1,7 @@
-scene_info = -1;
-
+scene_info[0,0] = -1;
 scene = 0;
 
 timer = 0;
-
-
-
 
 
 x_dest = -1;

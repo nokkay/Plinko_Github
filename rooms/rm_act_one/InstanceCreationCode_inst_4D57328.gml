@@ -7,13 +7,6 @@ t_scene_info =
 	// create dialog
 	[create_cutscene_dialogue, "Cutscene1", obj_lonelyWiz],
 	// move trigger
-
-	[cutscene_wait, 3],
-	
-	[cutscene_move_character, obj_finley, 150, 384, false, 2],
-	[cutscene_wait, 2],
-	[create_cutscene_dialogue, "first_finley", obj_finley],
-	[cutscene_change_variable, obj_lonelyWiz, "image_xscale", 1],
-	[create_cutscene_dialogue, "gf", obj_lonelyWiz]
-	
+	[cutscene_move_character, inst_3CF6E27F,x, obj_lonelyWiz.y, false, 5],
+	[cutscene_wait, 3]
 ];

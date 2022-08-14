@@ -28,6 +28,7 @@ if(keyboard_check_pressed(vk_enter))
 		case menu_cursor.start:
 			room_goto(rm_act_one);
 			break;
+			
 		case menu_cursor.quit:
 			game_end();
 	}

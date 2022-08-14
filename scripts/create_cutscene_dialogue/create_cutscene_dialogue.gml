@@ -3,5 +3,6 @@
 ///@param obj
 
 function create_cutscene_dialogue(){
-	create_textbox(argument0, argument1)
+	create_textbox(argument0, argument1);
+	cutscene_end_action();
 }

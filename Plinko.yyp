@@ -84,6 +84,7 @@
     {"folderPath":"folders/Sprites/GUI.yy","order":6,"resourceVersion":"1.0","name":"GUI","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/BG.yy","order":1,"resourceVersion":"1.0","name":"BG","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/spr_plinko.yy","order":2,"resourceVersion":"1.0","name":"spr_plinko","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Music/Voices.yy","order":1,"resourceVersion":"1.0","name":"Voices","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

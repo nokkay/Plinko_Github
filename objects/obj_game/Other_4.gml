@@ -35,6 +35,13 @@ if(room != rm_void && room != rm_menu)
 		}
 	}
 	
+	if(room == rm_act_three)
+	{
+		audio_stop_all();
+		audio_play_sound(Porter_Robinson___Goodbye_To_A_World__Official_Audio_, 2, true);
+	}
+	
+	
 	//white paint
 	if(room == rm_act_four)
 	{

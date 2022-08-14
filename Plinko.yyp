@@ -62,6 +62,7 @@
     {"id":{"name":"spr_hills_close","path":"sprites/spr_hills_close/spr_hills_close.yy",},"order":8,},
     {"id":{"name":"spr_tree","path":"sprites/spr_tree/spr_tree.yy",},"order":6,},
     {"id":{"name":"create_box_at_mouse","path":"scripts/create_box_at_mouse/create_box_at_mouse.yy",},"order":6,},
+    {"id":{"name":"Porter_Robinson___Goodbye_To_A_World__Official_Audio_","path":"sounds/Porter_Robinson___Goodbye_To_A_World__Official_Audio_/Porter_Robinson___Goodbye_To_A_World__Official_Audio_.yy",},"order":2,},
     {"id":{"name":"obj_table","path":"objects/obj_table/obj_table.yy",},"order":3,},
     {"id":{"name":"obj_par_npc_1","path":"objects/obj_par_npc_1/obj_par_npc_1.yy",},"order":7,},
     {"id":{"name":"spr_barrier","path":"sprites/spr_barrier/spr_barrier.yy",},"order":6,},

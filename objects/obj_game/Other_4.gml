@@ -18,7 +18,7 @@ if(room != rm_void && room != rm_menu)
 		}
 	}
 
-	if(room = rm_act_one)
+	if(room == rm_act_one)
 	{
 		//create petals
 		alarm[0] = 1
@@ -29,6 +29,12 @@ if(room != rm_void && room != rm_menu)
 		var randomY = irandom_range(-100, 0);
 		instance_create_layer(randomX, randomY, "Petals", obj_petal);
 		}
+	}
+	
+	//white paint
+	if(room == rm_act_four)
+	{
+		obj_lonelyWiz.painted = true;
 	}
 
 }

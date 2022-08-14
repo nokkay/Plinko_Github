@@ -19,7 +19,7 @@ function move_rooms(object, input_room, room_side, margin)
 	}
 
 	// Change room to RIGHT
-	if(side == sides.right && current_room != rm_act_three)
+	if(side == sides.right)
 	{
 		room_goto_next();
 		// Spawn player on LEFT side

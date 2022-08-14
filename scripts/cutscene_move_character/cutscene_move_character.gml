@@ -33,7 +33,9 @@ function cutscene_move_character(){
 	
 		if(xx - x >= spd) //moving
 		{
+			
 			sprite_index = obj.walk;
+
 	
 			var dir = point_direction(x, y, xx, yy);
 			var ldirx = lengthdir_x(spd, dir);

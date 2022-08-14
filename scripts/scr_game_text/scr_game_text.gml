@@ -1,7 +1,5 @@
-///@description scr_game_text
-///@arg text_id
-
-
+// Script assets have changed for v2.3.0 see
+// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_game_text(_text_id)
 {
 	switch(_text_id)
@@ -16,17 +14,9 @@ function scr_game_text(_text_id)
 			break;
 			
 		case "npc2":
+			
 			break;
 			
-			
-		case "Cutscene1":
 		
-			//plinko talk
-				
-				//obj_lonelyWiz.sprite_index(spr_lonelyWiz_talk);
-			
-				scr_text("practi(s)e");
-				scr_text("did it wtok");
-				break;
 	}
 }

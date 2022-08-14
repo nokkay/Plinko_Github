@@ -1,4 +1,4 @@
-if(!instance_exists(obj_cutscene))
+if(!instance_exists(obj_par_cutscene))
 {
 
 	if(place_meeting(x, y, obj_lonelyWiz))

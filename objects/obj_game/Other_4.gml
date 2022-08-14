@@ -20,6 +20,10 @@ if(room != rm_void && room != rm_menu)
 
 	if(room == rm_act_one)
 	{
+
+		if(instance_exists(obj_lonelyWiz)) exit;
+		instance_create_layer(250, 383, "Instances", obj_lonelyWiz);
+
 		//create petals
 		alarm[0] = 1
 

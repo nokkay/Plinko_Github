@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function cutscene_end_action(){
 	obj_par_cutscene.scene++;
-	if(scene > array_length_1d(scene_info)-1)
+	if(scene > array_length(scene_info) - 1)
 	{
 		instance_destroy();
 		exit;

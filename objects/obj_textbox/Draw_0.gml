@@ -1,7 +1,8 @@
 accept_key = keyboard_check_pressed(vk_space);
 
-textbox_x = camera_get_view_x(view_camera[0]);
+textbox_x = camera_get_view_x(view_camera[0]) + 64;
 textbox_y = camera_get_view_y(view_camera[0]) + 384;
+
 
 //setup
 if(setup == false)
@@ -17,7 +18,7 @@ if(setup == false)
 		
 		//find out how many characters are on each page and store in var
 		text_length[p] = string_length(text[p]);
-		text_x_offset[p] = 64;
+		
 		
 		
 		
@@ -100,8 +101,8 @@ if (accept_key)
 box_spr_w = sprite_get_width(box_spr);
 box_spr_h = sprite_get_height(box_spr);
 //back of the textbox
-draw_sprite_ext(box_spr, box_img, textbox_x + text_x_offset[page], textbox_y, textbox_width/box_spr_w, textbox_height/box_spr_h, 0, c_white, 1);
+draw_sprite_ext(box_spr, box_img, textbox_x, textbox_y, textbox_width/box_spr_w, textbox_height/box_spr_h, 0, c_white, 1);
 
 //draw the text
 var drawText = string_copy(text[page], 1, draw_char);
-draw_text_ext(textbox_x + text_x_offset[page] + border, textbox_y + border, drawText, line_sep, line_width);
+draw_text_ext(textbox_x + border, textbox_y + border, drawText, line_sep, line_width);

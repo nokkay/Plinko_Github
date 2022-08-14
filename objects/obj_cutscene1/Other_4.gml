@@ -2,6 +2,7 @@
 
 if(room = rm_act_one)
 {
+	alarm[0] = 3*room_speed;
 	//fade out
 	instance_create_layer(0,0, "Instances", obj_fade);
 		

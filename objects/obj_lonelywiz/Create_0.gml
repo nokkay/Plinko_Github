@@ -5,6 +5,8 @@ depth = 99;
 
 walk_speed = 3;
 
+global.is_talking = false;
+
 enum movement_state
 {
 	stand,

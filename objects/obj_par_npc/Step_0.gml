@@ -3,9 +3,10 @@
 var _s = id;
 
 // Initiate dialogue
-if(keyboard_check_pressed(ord("E")) && talk)
+if(keyboard_check_pressed(ord("E")) && talk && !global.is_talking)
 {
 	create_textbox(text_id);
+	global.is_talking = true;
 }
 
 // Close
@@ -21,6 +22,7 @@ else
 {
 	instance_destroy(obj_speech_bubble);	
 	talk = false;
+	global.is_talking = false;
 }
 
 

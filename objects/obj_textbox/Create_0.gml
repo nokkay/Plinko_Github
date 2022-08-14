@@ -8,6 +8,9 @@ box_spr = spr_textbox
 box_img = 0;
 box_img_speed = 6/30;
 
+//misc
+global.is_talking = false;
+
 //sound
 snd_delay = 4;
 snd_count = snd_delay;

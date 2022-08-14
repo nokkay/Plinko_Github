@@ -40,6 +40,11 @@ if(text_pause_timer <= 0)
 		if(_check_char == "." || _check_char == "," || _check_char == "?")
 		{
 			text_pause_timer = text_pause_time;		
+			if(!audio_is_playing(msc_mid_voice))
+			{
+				audio_play_sound(msc_mid_voice, 10, false);
+			}
+			
 		}
 		else
 		{
@@ -78,6 +83,7 @@ if (accept_key)
 		else
 		{
 			instance_destroy();
+			global.is_talking = false;
 		}
 		
 	}

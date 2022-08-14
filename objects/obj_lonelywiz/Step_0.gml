@@ -6,7 +6,7 @@ movement_mode = movement_state.stand; // reset state
 
 // Holding left & right 
 
-if(global.is_talking == false)
+if(global.is_talking == false && !instance_exists(obj_par_cutscene))
 
 {
 	if((keyboard_check(vk_left) || keyboard_check(ord("A"))) && (keyboard_check(vk_right) || keyboard_check(ord("D"))))

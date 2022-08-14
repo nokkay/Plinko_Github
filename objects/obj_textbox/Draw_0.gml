@@ -77,10 +77,8 @@ if (accept_key)
 		//next page
 		if(page < page_number-1)
 		{
-			
 			page++;
 			draw_char = 0;
-			
 		}
 		//destroy textbox
 		else
@@ -97,8 +95,6 @@ if (accept_key)
 	}
 	
 }
-
-
 
 
 //draw the textbox

@@ -12,7 +12,6 @@ global.is_talking = true;
 //misc
 
 
-
 //sound
 snd_delay = 4;
 snd_count = snd_delay;

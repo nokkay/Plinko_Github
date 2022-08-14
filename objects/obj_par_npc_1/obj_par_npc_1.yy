@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_trigger_perm",
-    "path": "sprites/spr_trigger_perm/spr_trigger_perm.yy",
+    "name": "spr_npc_1",
+    "path": "sprites/spr_npc_1/spr_npc_1.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,11 +28,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Game Objects",
-    "path": "folders/Objects/Game Objects.yy",
+    "name": "NPC",
+    "path": "folders/Objects/NPC.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_trigger",
+  "name": "obj_par_npc_1",
   "tags": [],
   "resourceType": "GMObject",
 }

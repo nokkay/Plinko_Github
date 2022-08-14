@@ -1,8 +1,9 @@
 ///@description script_execute_alt
 ///@arg ind
 ///@arg [arg1,arg2,...]
-function script_execute_alt(){
-		
+function script_execute_alt()
+{
+	
  
 	var s = argument0;
 	var a = argument1;
@@ -26,4 +27,5 @@ function script_execute_alt(){
 	    case 14: script_execute(s, a[0], a[1], a[2], a[3], a[4], a[5], a[6], a[7], a[8], a[9], a[10], a[11], a[12], a[13]); break;
 	    case 15: script_execute(s, a[0], a[1], a[2], a[3], a[4], a[5], a[6], a[7], a[8], a[9], a[10], a[11], a[12], a[13], a[14]); break;
 	}
+		
 }

@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "trigger_perm",
-    "path": "sprites/trigger_perm/trigger_perm.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -28,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Game Objects",
+    "path": "folders/Objects/Game Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_trigger_perm",

@@ -6,7 +6,7 @@ movement_mode = movement_state.stand; // reset state
 
 // Holding left & right 
 
-if(!global.is_talking)
+if(global.is_talking == false)
 
 {
 	if((keyboard_check(vk_left) || keyboard_check(ord("A"))) && (keyboard_check(vk_right) || keyboard_check(ord("D"))))
@@ -30,23 +30,24 @@ if(!global.is_talking)
 
 
 
-
-
 // Draw state
 
 switch(movement_mode)
 {
 	case movement_state.stand:
-		sprite_index = spr_lonelyWiz_idle;
+		if painted sprite_index = spr_lonelyWiz_idle_paint;
+		else sprite_index = spr_lonelyWiz_idle;
 		break;
 		
 	case movement_state.walk_left:
-		sprite_index = spr_lonelyWiz_walk;
+		if painted sprite_index = spr_lonelyWiz_walk_paint;
+		else sprite_index = spr_lonelyWiz_walk;
 		image_xscale = 1;
 		break;
 		
 	case movement_state.walk_right:
-		sprite_index = spr_lonelyWiz_walk;
+		if painted sprite_index = spr_lonelyWiz_walk_paint;
+		else sprite_index = spr_lonelyWiz_walk;
 		image_xscale = -1;
 		break;
 }

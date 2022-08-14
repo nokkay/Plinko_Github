@@ -2,6 +2,7 @@
 
 sprite_index = spr_lonelyWiz_idle;
 depth = 99;
+painted = false;
 
 walk_speed = 3;
 

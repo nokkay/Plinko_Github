@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_blackscreen",
-    "path": "sprites/spr_blackscreen/spr_blackscreen.yy",
+    "name": "spr_placeholder",
+    "path": "sprites/spr_placeholder/spr_placeholder.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,18 +21,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Game Objects",
-    "path": "folders/Objects/Game Objects.yy",
+    "name": "NPC",
+    "path": "folders/Objects/NPC.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_fade",
+  "name": "obj_placeholder",
   "tags": [],
   "resourceType": "GMObject",
 }

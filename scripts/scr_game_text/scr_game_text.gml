@@ -13,13 +13,17 @@ function scr_game_text(_text_id)
 			scr_text("I eat ass");
 			break;
 			
+		case "first_finley":
+			scr_text("Excuse me, have you seen a blue school bag?")
+			scr_text("I happened to lose it in this park.")
+			break;
 		case "goodbye_convo":
 			scr_text("I'm going home now, goodbye!");
 			
 			break;
 		
 		case "Cutscene1":
-			scr_text("test for cutscene one uwu");
+			scr_text("...and then he fell into the ocean and died a horrible death. The end.");
 			break;
 			
 		default:

@@ -5,6 +5,7 @@ function cutscene_end_action(){
 	if(scene > array_length(scene_info) - 1)
 	{
 		instance_destroy();
+		scene = 0;
 		exit;
 	}
 	

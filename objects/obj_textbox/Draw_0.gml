@@ -41,6 +41,17 @@ if(text_pause_timer <= 0)
 		{
 			text_pause_timer = text_pause_time;		
 		}
+		else
+		{
+			//typing sound
+			if(snd_count < snd_delay){
+				snd_count++;
+				
+			}else{
+				snd_count = 0;
+				audio_play_sound(msc_mid_voice, 10, false);
+			}
+		}
 		
 	}
 		

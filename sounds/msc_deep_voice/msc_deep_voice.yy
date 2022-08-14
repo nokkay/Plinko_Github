@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.77,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "msc_plinko_theme.mp3",
-  "duration": 116.76733,
+  "soundFile": "msc_deep_voice.wav",
+  "duration": 0.115011,
   "parent": {
-    "name": "Music",
-    "path": "folders/Music.yy",
+    "name": "Voices",
+    "path": "folders/Music/Voices.yy",
   },
   "resourceVersion": "1.0",
-  "name": "msc_plinko_theme",
+  "name": "msc_deep_voice",
   "tags": [],
   "resourceType": "GMSound",
 }

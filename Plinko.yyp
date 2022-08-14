@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_bench","path":"sprites/spr_bench/spr_bench.yy",},"order":6,},
+    {"id":{"name":"msc_mid_voice","path":"sounds/msc_mid_voice/msc_mid_voice.yy",},"order":2,},
     {"id":{"name":"spr_grass_mid","path":"sprites/spr_grass_mid/spr_grass_mid.yy",},"order":0,},
     {"id":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"order":0,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":2,},
@@ -23,8 +24,10 @@
     {"id":{"name":"spr_lonelyWiz_idle","path":"sprites/spr_lonelyWiz_idle/spr_lonelyWiz_idle.yy",},"order":0,},
     {"id":{"name":"obj_speech_bubble","path":"objects/obj_speech_bubble/obj_speech_bubble.yy",},"order":1,},
     {"id":{"name":"obj_petal","path":"objects/obj_petal/obj_petal.yy",},"order":0,},
+    {"id":{"name":"msc_deep_voice","path":"sounds/msc_deep_voice/msc_deep_voice.yy",},"order":0,},
     {"id":{"name":"obj_grass_top","path":"objects/obj_grass_top/obj_grass_top.yy",},"order":1,},
     {"id":{"name":"spr_speech_bubble","path":"sprites/spr_speech_bubble/spr_speech_bubble.yy",},"order":1,},
+    {"id":{"name":"msc_high_voice","path":"sounds/msc_high_voice/msc_high_voice.yy",},"order":1,},
     {"id":{"name":"rm_act_two","path":"rooms/rm_act_two/rm_act_two.yy",},"order":2,},
     {"id":{"name":"spr_cloud","path":"sprites/spr_cloud/spr_cloud.yy",},"order":1,},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":1,},

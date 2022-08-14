@@ -7,17 +7,22 @@ line_width = textbox_width - border*2;
 box_spr = spr_textbox
 box_img = 0;
 box_img_speed = 6/30;
+
+//sound
+snd_delay = 4;
+snd_count = snd_delay;
+
 //mid
-//plinko_voice;
+plinko_voice = msc_mid_voice;
 
-////lowest
-//bennet_voice
+//lowest
+bennet_voice = msc_deep_voice;
 
-////high
-//finley_voice
+//high
+finley_voice = msc_high_voice;
 
-////kinda high
-//tin_voice
+//kinda high
+tin_voice = msc_high_voice;
 
 //text
 page = 0;

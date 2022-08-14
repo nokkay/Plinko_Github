@@ -2,7 +2,7 @@
 ///@param obj
 ///@param x
 ///@param y
-///@param relative?
+///@param relative? 
 ///@param spd
 
 function cutscene_move_character(){
@@ -31,9 +31,9 @@ function cutscene_move_character(){
 	with(obj)
 	{
 		
-		sprite_index = spr_lonelyWiz_walk;
+		sprite_index = obj.sprite_index;
 		
-		if(point_distance(x, y, xx, yy >= spd))
+		if(xx - x >= spd)
 		{
 			var dir = point_direction(x, y, xx, yy);
 			var ldirx = lengthdir_x(spd, dir);

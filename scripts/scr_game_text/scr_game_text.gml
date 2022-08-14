@@ -13,7 +13,8 @@ function scr_game_text(_text_id)
 			scr_text("I eat ass");
 			break;
 			
-		case "npc2":
+		case "goodbye_convo":
+			scr_text("I'm going home now, goodbye!");
 			
 			break;
 		

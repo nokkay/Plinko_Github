@@ -99,6 +99,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_grass_mid","path":"objects/obj_grass_mid/obj_grass_mid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":640.0,"resourceVersion":"1.0","name":"inst_433D56EA","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_grass_mid","path":"objects/obj_grass_mid/obj_grass_mid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":960.0,"y":640.0,"resourceVersion":"1.0","name":"inst_65154FE4","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_grass_mid","path":"objects/obj_grass_mid/obj_grass_mid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":640.0,"resourceVersion":"1.0","name":"inst_6600516B","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_trigger","path":"objects/obj_trigger/obj_trigger.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":384.0,"resourceVersion":"1.0","name":"inst_4337CF10","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Grass_1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"spr_flower","path":"sprites/spr_flower/spr_flower.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":0.7,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":384.0,"resourceVersion":"1.0","name":"graphic_1B22A74E","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -204,6 +205,7 @@
     {"name":"inst_433D56EA","path":"rooms/rm_act_two/rm_act_two.yy",},
     {"name":"inst_65154FE4","path":"rooms/rm_act_two/rm_act_two.yy",},
     {"name":"inst_6600516B","path":"rooms/rm_act_two/rm_act_two.yy",},
+    {"name":"inst_4337CF10","path":"rooms/rm_act_two/rm_act_two.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

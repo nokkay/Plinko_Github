@@ -8,6 +8,9 @@ walk_speed = 3;
 
 global.is_talking = false;
 
+walk = spr_lonelyWiz_walk;
+idle = spr_lonelyWiz_idle;
+
 enum movement_state
 {
 	stand,

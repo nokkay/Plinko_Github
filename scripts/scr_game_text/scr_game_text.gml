@@ -16,7 +16,7 @@ function scr_game_text(_text_id)
 		case "first_finley":
 			scr_text("Excuse me, have you seen a blue school bag?")
 			scr_text("I happened to lose it in this park.")
-			
+			break;
 		case "goodbye_convo":
 			scr_text("I'm going home now, goodbye!");
 			

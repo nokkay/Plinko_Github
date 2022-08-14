@@ -30,28 +30,30 @@ function cutscene_move_character(){
 	
 	with(obj)
 	{
-		
-		sprite_index = obj.sprite_index;
-		
-		if(xx - x >= spd)
+	
+		if(xx - x >= spd) //moving
 		{
+			sprite_index = obj.walk;
+	
 			var dir = point_direction(x, y, xx, yy);
 			var ldirx = lengthdir_x(spd, dir);
 			var ldiry = lengthdir_y(spd, dir);
 			
 			if(ldirx == 0){
-				image_xscale = -1;	
+				image_xscale = 1;	
 			}
 			else
 			{
-				image_xscale = 1;	
+				image_xscale = -1;	
 			}
 			x+= ldirx;
 			y+= ldiry;
 		
-		}else{
+		}else{ // stopped moving
 			x = xx;
 			y = yy;
+			
+			sprite_index = obj.idle;
 			
 			with(other)
 			{
